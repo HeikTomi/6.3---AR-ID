@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Tomi Heikkinen - Web Mobile AR</title>
+  </head>
+  <body>
+    <div class="ar-business-card" id="ar-business-card">
+      <div class="ar-business-card-front">
+        <h2>Tomi Heikkinen</h2>
+        <div class="roles-container">
+          <div class="role" onclick="showInfo('full-stack-developer-info')">Full-Stack Developer</div>
+          <div class="role" onclick="showInfo('mobile-developer-info')">Mobile Developer</div>
+          <div class="role" onclick="showInfo('ar-developer-info')">AR Developer</div>
+          <div class="role" onclick="showInfo('unity-developer-info')">Game Developer</div>
+          <div class="role" onclick="showInfo('blender-info')">Blender</div>
+          <div class="role" onclick="showInfo('about-me-info')">About Me</div>
+        </div>
+        <div class="social-links">
+          <a href="https://wa.me/358406359080" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+          </a>
+          <a href="https://www.facebook.com/tomiheik" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-facebook"></i> Facebook
+          </a>
+          <a href="https://www.instagram.com/tomipethei/" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-instagram"></i> Instagram
+          </a>
+          <a href="https://github.com/HeikTomi/" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+        <div class="embed-linkedin">
+          <div class="linkedin-badge">
+            <img src="./assets/images/linkedin-logo-png-1841.png" alt="LinkedIn Logo" class="linkedin-logo">
+            <div class="linkedin-info">
+              <h3>Tomi Heikkinen</h3>
+              <p>Web | Mobile | AR ICT-Engineer</p>
+            </div>
+            <a href="https://www.linkedin.com/in/tomi-heikkinen-tph/" target="_blank" class="linkedin-link" rel="noopener">View Profile</a>
+          </div>
+        </div>
+      </div>
+      <div id="info-container" class="info-container">
+        <div id="full-stack-developer-info" class="info">
+          <h2>Full-Stack Web Developer</h2>
+          <div class="tech-icons">
+            <div class="tech-icon"><i class="fab fa-html5" aria-hidden="true"></i>HTML5</div>
+            <div class="tech-icon"><i class="fab fa-css3" aria-hidden="true"></i>CSS3</div>
+            <div class="tech-icon"><i class="fa fa-js" aria-hidden="true" title="TypeScript"></i>JavaScript</div>
+            <div class="tech-icon"><i class="fa fa-code" aria-hidden="true" title="TypeScript"></i>TypeScript</div>
+            <div class="tech-icon"><i class="fab fa-react" aria-hidden="true"></i>ReactJS</div>
+            <div class="tech-icon"><i class="fab fa-node" aria-hidden="true" title="Node.js"></i>NodeJS</div>
+            <div class="tech-icon"><i class="fab fa-node" aria-hidden="true" title="Express"></i>Express</div>
+            <div class="tech-icon"><i class="fab fa-php" aria-hidden="true"></i>PHP</div>
+            <div class="tech-icon"><i class="fab fa-python" aria-hidden="true" title="Python"></i>Python</div>
+            <div class="tech-icon"><i class="fab fa-wordpress" aria-hidden="true"></i>Wordpress</div>
+            <div class="tech-icon"><i class="fa fa-cube" aria-hidden="true" title="Concrete5"></i>Concrete5</div>
+            <div class="tech-icon"><i class="fa fa-cubes" aria-hidden="true" title="Liferay"></i>Liferay</div>
+            <div class="tech-icon"><i class="fa fa-database" aria-hidden="true" title="MySQL"></i>MySQL</div>
+            <div class="tech-icon"><i class="fa fa-database" aria-hidden="true" title="SQLite"></i>SQLite</div>
+            <div class="tech-icon"><i class="fa fa-database" aria-hidden="true" title="PostreSQL"></i>PostreSQL</div>
+            <div class="tech-icon"><i class="fa fa-database" aria-hidden="true" title="MongoDB"></i>MongoDB</div>
+            <div class="tech-icon"><i class="fab fa-git" aria-hidden="true"></i>Git</div>
+            <div class="tech-icon"><i class="fab fa-jenkins" aria-hidden="true"></i>Jenkins</div>
+            <div class="tech-icon"><i class="fab fa-docker" aria-hidden="true"></i>Docker</div>
+          </div>
+        </div>
+        <div id="mobile-developer-info" class="info"><h2>Mobile Development</h2>
+          <div class="tech-icons">
+            <div class="tech-icon"><i class="fab fa-android" aria-hidden="true"></i>Android</div>
+            <div class="tech-icon"><i class="fab fa-apple" aria-hidden="true"></i>iOS</div>
+            <div class="tech-icon"><i class="fab fa-react" aria-hidden="true"></i>React Native</div>
+            <div class="tech-icon"><i class="fa fa-cube" aria-hidden="true"></i>Ionic</div>
+            <div class="tech-icon"><i class="fa fa-cubes" aria-hidden="true" title="Kotlin"></i>Kotlin</div>
+          </div>
+          <div class="info-text">
+            <p>"I create both hybrid and native mobile apps for Android and iOS"</p>
+          </div>
+        </div>
+        <div id="ar-developer-info" class="info">
+          <h2>AR Development</h2>
+          <div class="tech-icons">
+            <div class="tech-icon"><i class="fa fa-code" aria-hidden="true" title="A-Frame"></i>A-Frame</div>
+            <div class="tech-icon"><i class="fa fa-code" aria-hidden="true" title="Three.js"></i>Three.js</div>
+            <div class="tech-icon"><i class="fa fa-code" aria-hidden="true" title="MindAR"></i>MindAR</div>
+            <div class="tech-icon"><i class="fab fa-unity" aria-hidden="true" title="Unity"></i>Unity</div>
+            <div class="tech-icon"><i class="fa fa-cubes" aria-hidden="true" title="Blender"></i>Blender</div>
+          </div>
+          <div class="info-text">
+            <p>"I create AR experiences using A-Frame, Three.js, MindAR, Unity and Blender"</p>
+          </div>
+        </div>
+        <div id="unity-developer-info" class="info">
+          <h2>Game Developer</h2>
+          <div class="tech-icons">
+            <div class="tech-icon"><i class="fab fa-unity" aria-hidden="true"></i>Unity</div>
+            <div class="tech-icon"><i class="fa fa-cubes" aria-hidden="true" title="Blender"></i>Blender</div>
+            <div class="tech-icon"><i class="fab fa-python" aria-hidden="true" title="Python"></i>Python</div>
+            <div class="tech-icon"><i class="fa fa-code" aria-hidden="true" title="C#"></i>C#</div>
+            <div class="tech-icon"><i class="fa fa-code" aria-hidden="true" title="Luau"></i>Luau</div>
+          </div>
+          <div class="info-text">
+            <p>
+              "I create 2D and 3D games, as well as VR and AR experiences, 
+              using Unity and Blender for various platforms including PC, Linux, Mobile and Roblox."
+            </p>
+          </div>
+        </div>
+        <div id="blender-info" class="info">
+          <h2>Blender</h2>
+          <div class="tech-icons">
+            <div class="tech-icon"><i class="fa fa-cubes" aria-hidden="true" title="Blender"></i>Blender</div>
+            <div class="tech-icon"><i class="fa fa-cube" aria-hidden="true" title="Unity"></i>Unity</div>
+            <div class="tech-icon"><i class="fa fa-cube" aria-hidden="true" title="Roblox"></i>Roblox</div>
+          </div>
+          <div class="info-text">
+            <p>
+              "I create 3D models, animations and textures using Blender for various platforms including Unity and Roblox."
+            </p>
+          </div>
+        </div>
+        <div id="about-me-info" class="info">
+          <h2>About Me!</h2>
+          <div class="profile-image">
+            <img src="./assets/images/profile.jpg" alt="Tomi Heikkinen">
+          </div>
+          <div class="info-text">
+            <p>
+              "I'm a Web, Mobile, and AR Developer with a passion for creating interactive experiences. Soon to be graduating ICT-Engineering student from LAB UAS with a strong background in Full-Stack Web Development."
+            </p>
+          </div>
+          <div class="contact-info">
+            <p>
+              <i class="fas fa-phone"></i> +358 40 635 9080<br>
+              <i class="fas fa-envelope"></i> heikkinentomi@hotmail.com<br>
+              <i class="fas fa-language"></i> Finnish, English, Swedish
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ar-business-card-back" id="ar-business-card-back">
+      <h2>Yay, you found me!</h2>
+      <p>Congratulations, you've reached your destination! Please flip the card to view my contact information.</p>
+      <img src="./assets/images/front.png" alt="Tomi Heikkinen" />
+    </div>
+
+    <script src="js/libs/mindar/mindar-image-three.prod.js"></script>
+    <script src="js/index.js" type="module"></script>
+  </body>
+</html>
